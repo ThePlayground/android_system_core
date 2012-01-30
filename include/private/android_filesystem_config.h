@@ -243,6 +243,7 @@ static struct fs_path_config android_files[] = {
 		 * in user builds. */
     { 06750, AID_ROOT,      AID_SHELL,     "system/bin/run-as" },
     { 06755, AID_ROOT,      AID_ROOT,      "system/xbin/hcitool" },
+    { 06750, AID_ROOT,      AID_SYSTEM,    "system/bin/rebootcmd" },
     { 00755, AID_ROOT,      AID_SHELL,     "system/bin/*" },
     { 00755, AID_ROOT,      AID_ROOT,      "system/lib/valgrind/*" },
     { 00755, AID_ROOT,      AID_SHELL,     "system/xbin/*" },
