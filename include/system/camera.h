@@ -80,7 +80,6 @@ enum {
     CAMERA_MSG_RAW_IMAGE = 0x0080,        // dataCallback
     CAMERA_MSG_COMPRESSED_IMAGE = 0x0100, // dataCallback
 #ifdef QCOM_HARDWARE
-    CAMERA_MSG_STATS_DATA = 0x200,
     CAMERA_MSG_META_DATA = 0x400,
     CAMERA_MSG_LOCK_MUTEX = 0x800,		//Get Mutex from HAL
     CAMERA_MSG_UNLOCK_MUTEX = 0x1000,		//Release Mutex from HAL
@@ -91,6 +90,7 @@ enum {
     // request FRAME and METADATA. Or the apps can request only FRAME or only
     // METADATA.
     CAMERA_MSG_PREVIEW_METADATA = 0x0400, // dataCallback
+    CAMERA_MSG_STATS_DATA = 0x800,
     CAMERA_MSG_ALL_MSGS = 0xFFFF
 };
 
